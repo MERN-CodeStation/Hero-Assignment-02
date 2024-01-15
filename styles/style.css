@@ -1,0 +1,80 @@
+/* Two Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Prymary Shared Styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Mulish', sans-serif;
+}
+
+.primary_section {
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.primary_heading_h3 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.common_font_color {
+  color: #ff5400;
+  font-family: Mulish;
+}
+.primary_description {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.primary_btn {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* Nav style */
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_heading {
+  display: flex;
+  gap: 7px;
+  margin: 50px 0;
+}
+
+.nav_items ul a {
+  text-decoration: none;
+  padding: 22px;
+  color: var(--Dark-02, #424247);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav_items .common_font_color {
+  color: #ff5400;
+  font-family: Mulish;
+}
