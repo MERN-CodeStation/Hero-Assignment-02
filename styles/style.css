@@ -29,7 +29,7 @@
 .primary_description {
   color: rgba(19, 19, 24, 0.7);
   font-family: Mulish;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
@@ -50,11 +50,12 @@
   line-height: normal;
 }
 
-/* Nav style */
+/* Nav styles */
 .nav_container {
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .nav_heading {
   display: flex;
@@ -64,7 +65,7 @@
 
 .nav_items ul a {
   text-decoration: none;
-  padding: 22px;
+  padding: 30px;
   color: var(--Dark-02, #424247);
   text-align: center;
   font-family: Mulish;
@@ -78,3 +79,252 @@
   color: #ff5400;
   font-family: Mulish;
 }
+
+.nav_container_mobile {
+  display: none;
+  text-decoration: none;
+  padding: 30px;
+  color: var(--Dark-02, #424247);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* Banner styles */
+
+.banner_container {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 85%
+    ),
+    url('../Images/Group2.png') no-repeat center;
+}
+
+.primary_section h1 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 75px;
+}
+.banner_description {
+  width: 676px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+ padding: 1px 0 50px 0;
+}
+.banner_input {
+  border: none;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  align-items: center;
+  padding-bottom: 120px ;
+}
+
+.banner_input input {
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+#When {
+  border: none;
+  border-radius: 8px;
+  border-width;: 
+  background: #fff;
+  padding: 20px 50px;
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.banner_input,
+input,
+select {
+  text-align: center;
+  padding: 20px;
+}
+#Select_Type {
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px 50px;
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Responsive Media Queries styles */
+/* Main section styles */
+/* Popular Tours */
+
+
+
+.Popular_Tours_Heading{
+    width: 80%;
+  height: 550px;
+  margin: 0 auto;
+padding-top: 100px;
+}
+.Popular_Tours_description{
+  display: flex;
+  column-gap: 50px;
+
+}
+.Popular_Tours_Heading p {
+width: 577px;
+padding-top: 20px;
+line-height: 20px
+}
+.Popular_Tours_description  ul{
+  width: 525px;
+padding-left: 25px; 
+line-height: 20px
+}
+.Popular_Tours_Heading tour_p {
+width: 550px;
+padding-top: 20px;
+line-height: 20px
+}
+.Popular_Tours_Heading img {
+  position: relative;
+  bottom: 50px;
+}
+.Popular_Tours_Heading button{
+  position: relative;
+  bottom: 110px;
+}
+@media screen and (max-width: 600px) {
+  .primary_section_m {
+    width: 80%;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+
+  .nav_container {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    width: 80%;
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  .nav_container_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 0;
+  }
+  .logo_img {
+    width: 28.724px;
+    height: 33.516px;
+    flex-shrink: 0;
+  }
+  .banner_container {
+    margin: 0 auto;
+  }
+  .primary_heading_h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 21.543px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  span {
+    color: #ff5400;
+    font-family: Mulish;
+    font-size: 21.543px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  i {
+    color: #ff5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .banner_container h1 {
+    width: 80%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+    color: #fff;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .banner_description {
+    width: 80%;
+    padding: 10px 0 15px;
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+  }
+  .banner_input {
+    display: grid;
+    width: 80%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+  }
+  .banner_input,
+  input,
+  select {
+    text-align: center;
+    padding: 20px;
+  }
+  .primary_btn {
+    width: 255px;
+    height: 52px;
+    flex-shrink: 0;
+  }
+}
+
+
