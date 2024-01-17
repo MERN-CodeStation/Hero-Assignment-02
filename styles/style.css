@@ -265,6 +265,7 @@ li {
   width: 85%;
   max-width: 1440px;
   margin: 0 auto;
+  padding-top: 50px;
 }
 .Choose_us_heading .primary_heading_h3 {
   text-align: center;
@@ -341,6 +342,179 @@ li {
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+}
+/* Deals & Discounts Styles */
+.Deals_Discounts_heading {
+  width: 85%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.Deals_Discounts_heading .primary_heading_h3 {
+  text-align: center;
+}
+.Deals_Discounts_heading .primary_description {
+  width: 643px;
+  padding: 25px;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Deals_Discounts_1 {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: url(../Images/Group11.png), lightgray 50% / cover no-repeat;
+}
+.Deals_Discounts_1_book_now {
+  width: 30%;
+  height: 400px;
+  flex-shrink: 0;
+  /* padding: 20px; */
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+
+.Deals_Discounts_1 .Deals_Discounts_1_book_now {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 530px;
+}
+.Deals_Discounts_2 {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: url(../Images/Group12.png), lightgray 50% / cover no-repeat;
+}
+.Deals_Discounts_2_book_now {
+  width: 30%;
+  height: 400px;
+  flex-shrink: 0;
+  /* padding: 20px; */
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+
+.Deals_Discounts_2 .Deals_Discounts_2_book_now {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.Deals_Discounts_3 {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 16px;
+  background: url(../Images/Group11.png), lightgray 50% / cover no-repeat;
+}
+.Deals_Discounts_3_book_now {
+  width: 30%;
+  height: 400px;
+  flex-shrink: 0;
+  /* padding: 20px; */
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+
+.Deals_Discounts_3 .Deals_Discounts_3_book_now {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 530px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px;
+  gap: 10px;
+}
+h5 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-left: 50px;
+}
+.primary_description_icon {
+  width: 80%;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  padding: 16px 50px;
+}
+h6 {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-left: 50px;
+  padding-bottom: 35px;
+}
+.Deals_Discounts_item button {
+  margin-left: 50px;
+}
+.Deals_Discounts_item .primary_btn {
+  width: 210px;
+  height: 52px;
+  flex-shrink: 0;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+}
+.Deals_Discounts_item_btn {
+  text-align: center;
+}
+#Perfect_Place h3 {
+  width: 448px;
+}
+#Perfect_Place p {
+  width: 532px;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+#Perfect_Place ul {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+#Perfect_Place button {
+}
+video {
+  width: 610px;
+  height: 424px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    #131318 -31.96%,
+    rgba(19, 19, 24, 0) 100%
+  );
+  position: relative;
+  bottom: 120px;
 }
 /* Responsive Media Queries styles */
 
@@ -592,5 +766,36 @@ li {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+  }
+  .Deals_Discounts {
+    display: none;
+  }
+  #Perfect_Place h3 {
+    width: 248px;
+    padding-top: 30px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px; /* 150% */
+  }
+  #Perfect_Place p {
+    width: 335px;
+    color: rgba(19, 19, 24, 0.7);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+
+  #Perfect_Place ul {
+    color: #01010c;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
   }
 }
